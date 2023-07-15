@@ -1,0 +1,46 @@
+.chat-app {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.messages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .new-meassage-input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #096215;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+  }
+  .send-button {
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    background-color: #096215;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sign-out {
+    margin-top: 50px;
+  }
