@@ -22,7 +22,7 @@ import "./styles/Chat.css"
                console.log(messages)
                setMessages(messages)
             })
-        }, [])
+        })
 
         const handleSubmit = async(e) => {
             e.preventDefault()
